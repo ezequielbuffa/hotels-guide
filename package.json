@@ -4,6 +4,7 @@
   "description": "Nuestro primer projecto de Node js",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ezequielbuffa/hotels-guide/issues"
   },
-  "homepage": "https://github.com/ezequielbuffa/hotels-guide#readme"
+  "homepage": "https://github.com/ezequielbuffa/hotels-guide#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
