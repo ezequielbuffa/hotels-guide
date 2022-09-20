@@ -1,22 +1,41 @@
 .jumbotron {
     background-color: rgb(10, 221, 175);
     color: black;
-    padding: 30px 30px 30px;
+    padding: 50px 50px 50px;
+    background-image: url("/img/header2.jpg");
+    background-size: cover;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+}
+
+header {
+    margin-bottom: 50px;
+
 }
 
 footer {
-    padding: 10px 10px 10px;
-    position: fixed;
+    background-color: rgb(97, 204, 168);
+    position: absolute;
+    left: 0;
     bottom: 0;
+    height: 100px;
     width: 100%;
-    background-color: rgb(10, 221, 175);
-    margin-top: 10px;
-
+    overflow: hidden;
+    padding: 10px 10px 10px;
+    text-align: center;
 }
 
 .btn {
     background-color: rgb(41, 110, 87);
-    color: black;
+    color: white;
 }
 
 .card-sucu {
@@ -26,14 +45,18 @@ footer {
 
 .btn-comprar {
     width: 100%;
-    
+
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
