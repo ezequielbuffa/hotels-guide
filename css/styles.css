@@ -1,9 +1,10 @@
 .jumbotron {
     background-color: rgb(10, 221, 175);
-    color: black;
     padding: 50px 50px 50px;
     background-image: url("/img/header2.jpg");
     background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 html {
@@ -14,6 +15,7 @@ html {
 body {
     margin: 0 0 100px;
     /* bottom = footer height */
+  
 }
 
 header {
@@ -29,14 +31,11 @@ footer {
     height: 100px;
     width: 100%;
     overflow: hidden;
-    padding: 10px 10px 10px;
+    padding: 20px 10px 10px;
     text-align: center;
+    font-size: small;
 }
 
-.btn {
-    background-color: rgb(41, 110, 87);
-    color: white;
-}
 
 .card-sucu {
     flex: 1 150px;
@@ -45,7 +44,9 @@ footer {
 
 .btn-comprar {
     width: 100%;
-
+    background-color: rgb(41, 110, 87);
+    color: white;
+    margin-top: 10px;
 }
 
 img {
@@ -59,4 +60,16 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+h4, h3 {
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 0.5;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
 }
