@@ -6,80 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Soy suculenta</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="jumbotron">
-        <h1 class="display-3">Suculentas</h1>
-        <!-- Conteiner for the description -->
-        <div class="conteiner text-center">
-            <div class="row">
-                <div class="col-sm">
-                    <h4>Titulo 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi error quaerat incidunt
-                        aspernatur
-                        nostrum minus fugit corporis, temporibus illo? Necessitatibus ipsa excepturi laudantium iste
-                        dolore
-                        voluptatem incidunt praesentium consectetur inventore?</p>
-                </div>
-                <div class="col-sm">
-                    <h4>Titulo 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi error quaerat incidunt
-                        aspernatur
-                        nostrum minus fugit corporis, temporibus illo? Necessitatibus ipsa excepturi laudantium iste
-                        dolore
-                        voluptatem incidunt praesentium consectetur inventore?</p>
-                </div>
-                <div class="col-sm">
-                    <h4>Titulo 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi error quaerat incidunt
-                        aspernatur
-                        nostrum minus fugit corporis, temporibus illo? Necessitatibus ipsa excepturi laudantium iste
-                        dolore
-                        voluptatem incidunt praesentium consectetur inventore?</p>
-                </div>
+        <h1>Suculentas</h1>
+    </div>
+    <!-- Conteiner for the description -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 ">
+                <p>
+                    <h4>Amamos las suculentas</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </p>
             </div>
-        <!-- Product list -->
-            <div class="row">
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                <div class="col-sm">
-                    <h4>Product 1</h4>
-                    <img src="" alt="">
-                    <button>Info</button>
-                </div>
-                
-                
+            <div class="col-sm-4 ">
+                <p>
+                    <h4>Sobre nosotros</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </p>
+            </div>
+            <div class="col-sm-4 ">
+                <p>
+                    <h4>Metodos de pago</h4>
+                    <p>Contamos con MercadoPago</p>
+                </p>
             </div>
         </div>
+        <hr> 
+        <!-- Product list -->
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-sucu d-flex flex-column justify-content-between">
+                <h4>Product 1</h4>
+                <img class="img-fluid rounded" src="img/img1.jpg" alt="Suculenta">
+                <div>
+                    <button type="button" class="btn btn-secondary btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="card-sucu d-flex flex-column justify-content-between">
+                <h4>Product 1</h4>
+                <img class="img-fluid rounded" src="img/img2.jpg" alt="Suculenta">
+                <div>
+                    <button type="button" class="btn btn-secondary btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="card-sucu d-flex flex-column justify-content-between">
+                <h4>Product 1</h4>
+                <img class="img-fluid rounded" src="img/img3.jpg" alt="Suculenta">
+                <div>
+                    <button type="button" class="btn btn-secondary btn-comprar">Comprar</button>
+                </div>
+            </div>
+            <div class="card-sucu d-flex flex-column justify-content-between">
+                <h4>Product 1</h4>
+                <img class="img-fluid rounded" src="img/img4.jpg" alt="Suculenta">
+                <div>
+                    <button type="button" class="btn btn-secondary btn-comprar">Comprar</button>
+                </div>
+            </div>
+            
+        </div>
     </div>
-
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-3 d-flex flex-column">
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.facebook.com">Facebook</a>
+            </div>
+            <div class="col-sm-3 ">
+                <address>
+                    Montevideo Uruguay
+                    098910637
+                    contacto@suculentas.com
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="http://www.twitter.com">Mandanos tus fotos</a>
+                <a href="http://www.facebook.com">Contacto</a>
+            </div>
+        </div>
+    </footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
