@@ -10,11 +10,32 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Mercado de suculentas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
     <header class="jumbotron text-center">
         <h1> Mercado de Suculentas</h1>
     </header>
     <!-- Description container -->
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+            </ol>
+        </nav>
         <div class="row">
             <div class="col-sm-4 ">
                 <p>
@@ -113,9 +134,12 @@
                         <h4 class="m-3">Ferocactus</h3>
                     </div>
                     <div class="card-body">
-                        <p class="card-text">Aunque de primeras su nombre te resulte totalmente desconocido, los Ferocactus
-                            son uno de los cactus que más fácilmente podrás encontrar en viveros y floristerías. Cuando son
-                            jóvenes son globulares, pero según van creciendo algunas especies se vuelven columnares. No es
+                        <p class="card-text">Aunque de primeras su nombre te resulte totalmente desconocido, los
+                            Ferocactus
+                            son uno de los cactus que más fácilmente podrás encontrar en viveros y floristerías. Cuando
+                            son
+                            jóvenes son globulares, pero según van creciendo algunas especies se vuelven columnares. No
+                            es
                             muy exigente en cuanto al sustrato pero crecerá mejor si drena bien.
                         </p>
                     </div>
@@ -143,9 +167,10 @@
             </div>
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    
 </body>
 
 </html>

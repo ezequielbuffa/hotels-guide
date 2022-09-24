@@ -4,6 +4,7 @@
     background-image: url("/img/header2.jpg");
     background-size: cover;
     font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
 
 }
 
@@ -72,4 +73,16 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+button.navbar-toggler {
+    margin-right: 10px;
+}
+
+ul.navbar-nav {
+    margin-left: 20px;
 }
