@@ -1,9 +1,8 @@
 
 
 .jumbotron {
-    background-color: rgb(10, 221, 175);
+    background-color: rgba(196, 196, 17, 0.774);
     padding: 50px 50px 50px;
-    background-image: url("/img/header2.jpg");
     width: 100%;
     background-size: cover;
     font-family:Arial, Helvetica, sans-serif;
@@ -28,7 +27,7 @@ header {
 }
 
 footer {
-    background-color: rgb(97, 204, 168);
+    background-color: rgba(196, 196, 17, 0.774);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -40,6 +39,12 @@ footer {
     font-size: small;
 }
 
+.footer-info{
+
+    color: black
+
+}
+
 
 .card-sucu {
     flex: 1 150px;
@@ -48,7 +53,7 @@ footer {
 
 .btn-comprar {
     width: 100%;
-    background-color: rgb(41, 110, 87);
+    background-color: rgba(114, 201, 42, 0.884);
     color: white;
     margin-top: 10px;
 }

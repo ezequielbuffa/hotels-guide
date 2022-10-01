@@ -38,55 +38,85 @@
                 <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <th>Calidad</th>
-                    <th>Cactus piedra</th>
-                    <th>Planta panda</th>
-                    <th>Piedra lunar</th>
-                    <th>Fericactus</th>
-                    <th>Cactus piedra</th>
-                    <th>Planta panda</th>
-                    <th>Piedra lunar</th>
-                    <th>Fericactus</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Regulares</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                    </tr>
-                    <tr>
-                        <td>Especiales</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                    </tr>
-                    <tr>
-                        <td>Premium</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                        <td>$200</td>
-                        <td>$300</td>
-                        <td>$250</td>
-                        <td>$150</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- Tabs elments -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="price-tab" data-bs-toggle="tab" href="#price" role="tab"
+                    aria-controls="price" aria-selected="true"> Precio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="card-tab" data-bs-toggle="tab" href="#card" role="tab" aria-controls="card"
+                    aria-selected="true">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id="comments-tab" data-bs-toggle="tab" href="#comments" role="tab"
+                    aria-controls="comments" aria-selected="true"> Comentarios</a>
+            </li>
+        </ul>
+            <!-- Tabs links -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-panel fade show active" id="price" role="tabpanel" aria-labelledby="price-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Cactus piedra</th>
+                            <th>Planta panda</th>
+                            <th>Piedra lunar</th>
+                            <th>Fericactus</th>
+                            <th>Cactus piedra</th>
+                            <th>Planta panda</th>
+                            <th>Piedra lunar</th>
+                            <th>Fericactus</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Regulares</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td>Especiales</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td>Premium</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-panel fade" id="card" role="tabpanel" aria-labelledby="card-tab">
+                <div>Tarjetas</div>
+            </div>
+        </div>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-panel fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">
+                <div>Comentarios</div>
+            </div>
         </div>
         <footer class="text-muted">
             <div class="row">
