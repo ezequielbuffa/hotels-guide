@@ -38,20 +38,33 @@
                 <li class="breadcrumb-item active" aria-current="page">Inicio</li>
             </ol>
         </nav>
+
+        <!-- Collapse -->
         <div class="row">
-            <div class="col-sm-4 ">
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#calidad" aria-expanded="false" aria-controls="multiCollapse1">Calidad</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nosotros" aria-expanded="false" aria-controls="multiCollapse2">Nosotros</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">Pago</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 collapse multi-collapse" id="calidad">
                 <p>
                 <h3>Amamos las suculentas</h4>
                     <p>Queremos ofrecerte la mejor calidad al mejor precio.</p>
                     </p>
             </div>
-            <div class="col-sm-4 ">
+            <div class="col-sm-4 collapse multi-collapse" id="nosotros">
                 <p>
                 <h3>Sobre nosotros</h4>
                     <p>Contamos con años de experiencia en el cuidado de plantas.</p>
                     </p>
             </div>
-            <div class="col-sm-4 ">
+            <div class="col-sm-4 collapse multi-collapse" id="pago">
                 <p>
                 <h3>Metodos de pago</h4>
                     <p>Tenemos MercadoPago.</p>
