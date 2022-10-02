@@ -102,3 +102,14 @@ form div {
     color: white;
     background-color: black;
 }
+
+#myCardTabContent {
+    position: relative;
+    bottom: 200px;
+    padding-top: 10px;
+}
+
+#myCommentTabContent {
+    position: absolute;
+    bottom: 220px;
+}
