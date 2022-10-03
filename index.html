@@ -83,7 +83,7 @@
                         <img src="img/piedra-lunar.jpg" alt="piedra-lunar" class="bd-placeholder-img card-img-top">
                     </a>
                     <div>
-                        <h4 class="card-title m-3 ">Piedra lunar</h3>
+                        <h4 class="card-title m-3" data-bs-toggle="popover" data-bs-placment="top" title="Para más información has click en la imagen">Piedra lunar</h3>
                     </div>
                     <div>
                         <p class="card-text">La piedra lunar (Pachyphytum oviferum) es una especie propia de México y
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div>
-                    <button class="btn btn-comprar">Comprar</button>
+                    <button class="btn btn-comprar"  >Comprar</button>
                 </div>
             </div>
             <div class="card card-sucu d-flex flex-column justify-content-between ml-2">
@@ -104,7 +104,7 @@
                         <img src="img/planta-panda.jpg" alt="planta-panda" class="bd-placeholder-img card-img-top">
                     </a>
                     <div>
-                        <h4 class="card-title m-3 ">Planta panda</h3>
+                        <h4 class="card-title m-3 " data-bs-toggle="popover" data-bs-placment="top" title="Para más información has click en la imagen">Planta panda</h3>
                     </div>
                     <div>
                         <p class="card-text">La conocida como planta panda u orejas de gato (Kalanchoe tomentosa) es
@@ -125,7 +125,7 @@
                         <img src="img/catus-piedra.jpg" alt="cactus-piedra" class="bd-placeholder-img card-img-top">
                     </a>
                     <div>
-                        <h4 class=" card-title m-3">Cactus piedra</h3>
+                        <h4 class=" card-title m-3" data-bs-toggle="popover" data-bs-placment="top" title="Para más información has click en la imagen">Cactus piedra</h3>
                     </div>
                     <div>
                         <p class="card-text">Su curioso aspecto convierten al cactus piedra (Lithops) en uno de los
@@ -149,7 +149,7 @@
                         <img src="img/ferocactus.jpg" alt="ferocactus" class="bd-placeholder-img card-img-top">
                     </a>
                     <div>
-                        <h4 class="card-title m-3">Ferocactus</h3>
+                        <h4 class="card-title m-3" data-bs-toggle="popover" data-bs-placment="top" title="Para más información has click en la imagen">Ferocactus</h3>
                     </div>
                     <div>
                         <p class="card-text">Aunque de primeras su nombre te resulte totalmente desconocido, los
@@ -193,8 +193,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        
+                    <div class="modal-footer">    
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
                     </div>
                 </div>
@@ -222,7 +221,11 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script>
+        $(function(){
+            $("[data-toggle='popover']").popover();
+        });
+    </script>
 
 </body>
 
