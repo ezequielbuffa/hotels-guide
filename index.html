@@ -42,13 +42,16 @@
         <!-- Collapse -->
         <div class="row">
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#calidad" aria-expanded="false" aria-controls="multiCollapse1">Calidad</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#calidad"
+                    aria-expanded="false" aria-controls="multiCollapse1">Calidad</button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nosotros" aria-expanded="false" aria-controls="multiCollapse2">Nosotros</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nosotros"
+                    aria-expanded="false" aria-controls="multiCollapse2">Nosotros</button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">Pago</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago"
+                    aria-expanded="false" aria-controls="multiCollapse3">Pago</button>
             </div>
         </div>
         <div class="row">
@@ -82,7 +85,7 @@
                     <div>
                         <h4 class="card-title m-3 ">Piedra lunar</h3>
                     </div>
-                    <div >
+                    <div>
                         <p class="card-text">La piedra lunar (Pachyphytum oviferum) es una especie propia de México y
                             muy
                             valorada por su peculiar aspecto. Tiene pequeños tallos blanquecinos y hojas gruesas
@@ -164,6 +167,39 @@
                 </div>
             </div>
         </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact" id="modalButton">
+            Quiero que me contacten!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="contact" role="dialog" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Datos para contactarte</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-email" class="col-form-label">Tu email:</label>
+                                <input class="form-control" type="text"id="recipient-email">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-info" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="recipient-info"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
     <footer class="text-muted">
@@ -186,7 +222,8 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    
+
+
 </body>
+
 </html>
