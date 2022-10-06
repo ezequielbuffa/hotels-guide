@@ -61,7 +61,7 @@ footer {
 img {
     float: left;
     width: 100px;
-    height: 100px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -109,5 +109,19 @@ form div {
 
 #modalButton {
     margin: 20px;
+    width: 50%;
 }
 
+.collapse-buttons {
+    position: relative;
+    width: 100%;
+}
+
+#nosotros {
+    position: relative;
+    align-items: center;
+}
+
+#carouselControls {
+    padding-bottom: 20px;
+}

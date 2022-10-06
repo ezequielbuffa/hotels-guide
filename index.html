@@ -40,17 +40,17 @@
         </nav>
 
         <!-- Collapse -->
-        <div class="row">
+        <div class="row ">
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#calidad"
+                <button class="btn btn-primary collapse-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#calidad"
                     aria-expanded="false" aria-controls="multiCollapse1">Calidad</button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nosotros"
+                <button class="btn btn-primary collapse-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#nosotros"
                     aria-expanded="false" aria-controls="multiCollapse2">Nosotros</button>
             </div>
             <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago"
+                <button class="btn btn-primary collapse-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#pago"
                     aria-expanded="false" aria-controls="multiCollapse3">Pago</button>
             </div>
         </div>
@@ -75,6 +75,31 @@
             </div>
         </div>
         <hr>
+        <!-- Carrousel -->
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img1.jpg" alt="First slide" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img2.jpg" alt="Second slide" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img3.jpg" alt="Third slide" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img4.jpg" alt="Fourd slide" class="d-block w-100">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
         <!-- Product list container -->
         <div class="d-flex flex-wrap ">
             <div class="card card-sucu d-flex flex-column justify-content-between ml-2">
@@ -218,12 +243,16 @@
             </div>
         </div>
     </footer>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(function(){
+            $("[data-toggle='tooltip']").tooltip();
             $("[data-toggle='popover']").popover();
+            $('.carousel').carousel({
+                interval:2000
+            })
         });
     </script>
 
