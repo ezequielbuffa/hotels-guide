@@ -53,8 +53,6 @@ footer {
 
 .btn-comprar {
     width: 100%;
-    background-color: rgba(114, 201, 42, 0.884);
-    color: white;
     margin-top: 10px;
 }
 
@@ -108,7 +106,7 @@ form div {
 }
 
 #modalButton {
-    margin: 20px;
+    margin: 20px 0px 20px;
     width: 50%;
 }
 
