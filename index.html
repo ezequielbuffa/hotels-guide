@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Mercado de suculentas</a>
+        <a class="navbar-brand" href="#">S</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -252,7 +252,29 @@
             $("[data-toggle='popover']").popover();
             $('.carousel').carousel({
                 interval:2000
-            })
+            });
+
+            $('#contact').on('show.bs.modal', function (e){
+                console.log('modal is showing');
+                $('#modalButton').removeClass('btn-info'); 
+                $('#modalButton').addClass('btn-primary');
+                $('#modalButton').prop('disabled', true);
+            });
+
+            $('#contact').on('shown.bs.modal', function (e){
+                console.log('modal shown')
+            });
+            $('#contact').on('hide.bs.modal', function (e){
+                console.log('modal hide it self')
+            });
+            $('#contact').on('hidden.bs.modal', function (e){
+                console.log('modal is hidden');
+
+                $('#modalButton').prop('disabled', false);
+                $('#modalButton').addClass('btn-info');
+            });
+
+
         });
     </script>
 
