@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Soy suculenta</title>
-    <!-- Bootstrap CSS -->
+    
+    <!-- build:css dist/index.css -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+    <!-- endbuild -->
+    <title>Soy suculenta</title>
 </head>
 
 <body>
@@ -243,41 +245,13 @@
             </div>
         </div>
     </footer>
+    <!-- build:js dist/index.js  -->
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(function(){
-            $("[data-toggle='tooltip']").tooltip();
-            $("[data-toggle='popover']").popover();
-            $('.carousel').carousel({
-                interval:2000
-            });
-
-            $('#contact').on('show.bs.modal', function (e){
-                console.log('modal is showing');
-                $('#modalButton').removeClass('btn-info'); 
-                $('#modalButton').addClass('btn-primary');
-                $('#modalButton').prop('disabled', true);
-            });
-
-            $('#contact').on('shown.bs.modal', function (e){
-                console.log('modal shown')
-            });
-            $('#contact').on('hide.bs.modal', function (e){
-                console.log('modal hide it self')
-            });
-            $('#contact').on('hidden.bs.modal', function (e){
-                console.log('modal is hidden');
-
-                $('#modalButton').prop('disabled', false);
-                $('#modalButton').addClass('btn-info');
-            });
-
-
-        });
-    </script>
-
+    <script src="js/index.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>

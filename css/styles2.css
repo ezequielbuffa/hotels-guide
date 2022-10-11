@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #fff000;
+  background-color: #ede599;
   padding: 50px 50px 50px;
   width: 100%;
   background-size: cover;
@@ -7,25 +7,22 @@
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
 html {
   position: relative;
   min-height: 100%;
 }
-
 body {
   margin: 0 0 100px;
   /* bottom = footer height */
+ 
 }
-
 header {
   margin-bottom: 50px;
 }
-
 footer {
   margin-top: 10px;
   margin-bottom: 0px;
-  background-color: #fff000;
+  background-color: #ede599;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36,87 +33,69 @@ footer {
   text-align: left;
   font-size: small;
 }
-
 .footer-info {
   color: black;
 }
-
 .card-sucu {
   flex: 1 150px;
   padding: 5px;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
 .btn-comprar {
   width: 100%;
   margin-top: 10px;
 }
-
 img {
   float: left;
   width: 100px;
   height: 300px;
   object-fit: cover;
 }
-
-h4, h3 {
+h4,
+h3 {
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 0.5;
 }
-
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
 }
-
 .navbar-brand {
   margin-left: 20px;
 }
-
 button.navbar-toggler {
   margin-right: 10px;
 }
-
 ul.navbar-nav {
   margin-left: 20px;
 }
-
 form div {
   margin-bottom: 5px;
 }
-
 #form-button {
   margin-bottom: 10px;
 }
-
 .thead-dark {
   color: white;
   background-color: black;
 }
-
 #myPriceTabContent {
   padding-top: 100px;
 }
-
 #modalButton {
   margin: 20px 0px 20px;
   width: 50%;
 }
-
 .collapse-buttons {
   position: relative;
   width: 100%;
 }
-
 #nosotros {
   position: relative;
   align-items: center;
 }
-
 #carouselControls {
   padding-bottom: 20px;
 }
-
-/*# sourceMappingURL=styles.css.map */
