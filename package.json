@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
-    "clean-css": "^4.1.11",
+    "clean-css": "^4.2.4",
     "concurrently": "^7.4.0",
     "imagemin": "^8.0.1",
     "jquery": "^3.6.1",
